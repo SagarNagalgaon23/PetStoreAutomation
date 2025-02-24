@@ -1,0 +1,20 @@
+09:52:460 [main] INFO  api.tests.UserTests - *********Creating User**********
+09:52:552 [main] INFO  api.tests.UserTests - *********User Created**********
+09:52:553 [main] INFO  api.tests.UserTests - *********Reading User**********
+09:52:630 [main] INFO  api.tests.UserTests - *********User info is displayed**********
+09:52:631 [main] INFO  api.tests.UserTests - *********Updating User**********
+09:52:721 [main] INFO  api.tests.UserTests - ********* User is updated**********
+09:52:722 [main] INFO  api.tests.UserTests - *********Reading Updated User**********
+09:52:805 [main] INFO  api.tests.UserTests - *********Updated User is displayed**********
+09:52:806 [main] INFO  api.tests.UserTests - *********Deleting User**********
+09:52:887 [main] INFO  api.tests.UserTests - *********User Deleted**********
+10:46:691 [main] INFO  api.tests.UserTests - *********Creating User**********
+10:46:847 [main] INFO  api.tests.UserTests - *********User Created**********
+10:46:850 [main] INFO  api.tests.UserTests - *********Reading User**********
+10:46:989 [main] INFO  api.tests.UserTests - *********User info is displayed**********
+10:46:990 [main] INFO  api.tests.UserTests - *********Updating User**********
+10:46:132 [main] INFO  api.tests.UserTests - ********* User is updated**********
+10:46:133 [main] INFO  api.tests.UserTests - *********Reading Updated User**********
+10:46:281 [main] INFO  api.tests.UserTests - *********Updated User is displayed**********
+10:46:283 [main] INFO  api.tests.UserTests - *********Deleting User**********
+10:46:424 [main] INFO  api.tests.UserTests - *********User Deleted**********
