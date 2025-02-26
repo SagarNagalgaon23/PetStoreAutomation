@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.tests.DD_UserTest">
+      <class name="api.tests.DD_PetTest">
         <methods>
-          <include name="testPostUser"/>
-          <include name="testDeleteUser"/>
-          <include name="testReadUser"/>
+          <include name="get_Pet" invocation-numbers="0 1 2"/>
+          <include name="delete_Pet" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- api.tests.DD_UserTest -->
+      </class> <!-- api.tests.DD_PetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

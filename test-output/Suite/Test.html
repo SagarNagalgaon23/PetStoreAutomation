@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 24 09:29:48 IST 2025</td>
+<td>Started on:</td><td>Wed Feb 26 14:20:47 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (515 ms)</td>
+<tr><td>Total time:</td><td>52 seconds (52839 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,203 +76,170 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='api.tests.DD_UserTest.testDeleteUser()'><b>testDeleteUser</b><br>Test class: api.tests.DD_UserTest</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-Caused by: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:309)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:160)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:130)
-	at org.apache.poi.openxml4j.opc.PackagePart.loadRelationships(PackagePart.java:565)
-	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:745)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:315)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:285)
-	at api.utilities.XLUtility.getRowCount(XLUtility.java:32)
-	at api.utilities.DataProviders.getUserNames(DataProviders.java:31)
-	... 25 more
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace295640874", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace295640874'><pre>java.lang.RuntimeException: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:791)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:309)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:160)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:130)
-	at org.apache.poi.openxml4j.opc.PackagePart.loadRelationships(PackagePart.java:565)
-	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:745)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:315)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:285)
-	at api.utilities.XLUtility.getRowCount(XLUtility.java:32)
-	at api.utilities.DataProviders.getUserNames(DataProviders.java:31)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
-	... 25 more
-</pre></div></td>
-<td>0</td>
-<td>api.tests.DD_UserTest@3cd3e762</td></tr>
+<td title='api.tests.PetTests.testDisplayPet()'><b>testDisplayPet</b><br>Test class: api.tests.PetTests</td>
+<td></td>
+<td>1</td>
+<td>api.tests.PetTests@3c9754d8</td></tr>
 <tr>
-<td title='api.tests.DD_UserTest.testReadUser()'><b>testReadUser</b><br>Test class: api.tests.DD_UserTest</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-Caused by: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:309)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:160)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:130)
-	at org.apache.poi.openxml4j.opc.PackagePart.loadRelationships(PackagePart.java:565)
-	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:745)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:315)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:285)
-	at api.utilities.XLUtility.getRowCount(XLUtility.java:32)
-	at api.utilities.DataProviders.getUserNames(DataProviders.java:31)
-	... 25 more
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1340644388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1340644388'><pre>java.lang.RuntimeException: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:791)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:309)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:160)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:130)
-	at org.apache.poi.openxml4j.opc.PackagePart.loadRelationships(PackagePart.java:565)
-	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:745)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:315)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:285)
-	at api.utilities.XLUtility.getRowCount(XLUtility.java:32)
-	at api.utilities.DataProviders.getUserNames(DataProviders.java:31)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
-	... 25 more
-</pre></div></td>
-<td>0</td>
-<td>api.tests.DD_UserTest@3cd3e762</td></tr>
+<td title='api.tests.PetTests.testDisplayPetafterDelete()'><b>testDisplayPetafterDelete</b><br>Test class: api.tests.PetTests</td>
+<td></td>
+<td>1</td>
+<td>api.tests.PetTests@3c9754d8</td></tr>
 <tr>
-<td title='api.tests.DD_UserTest.testPostUser()'><b>testPostUser</b><br>Test class: api.tests.DD_UserTest</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-Caused by: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:309)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:160)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:130)
-	at org.apache.poi.openxml4j.opc.PackagePart.loadRelationships(PackagePart.java:565)
-	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:745)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:315)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:285)
-	at api.utilities.XLUtility.getRowCount(XLUtility.java:32)
-	at api.utilities.DataProviders.getAllData(DataProviders.java:13)
-	... 25 more
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1135935001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1135935001'><pre>java.lang.RuntimeException: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:791)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.lang.NoSuchMethodError: &apos;org.apache.logging.log4j.LogBuilder org.apache.logging.log4j.Logger.atDebug()&apos;
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:309)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:160)
-	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:130)
-	at org.apache.poi.openxml4j.opc.PackagePart.loadRelationships(PackagePart.java:565)
-	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:745)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:315)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:285)
-	at api.utilities.XLUtility.getRowCount(XLUtility.java:32)
-	at api.utilities.DataProviders.getAllData(DataProviders.java:13)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
-	... 25 more
-</pre></div></td>
-<td>0</td>
-<td>api.tests.DD_UserTest@3cd3e762</td></tr>
+<td title='api.tests.DD_PetTest.delete_Pet()'><b>delete_Pet</b><br>Test class: api.tests.DD_PetTest<br>Parameters: 10013</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_PetTest@2cd76f31</td></tr>
+<tr>
+<td title='api.tests.UserTests.testCreateUser()'><b>testCreateUser</b><br>Test class: api.tests.UserTests</td>
+<td></td>
+<td>1</td>
+<td>api.tests.UserTests@3d285d7e</td></tr>
+<tr>
+<td title='api.tests.DD_PetTest.get_Pet()'><b>get_Pet</b><br>Test class: api.tests.DD_PetTest<br>Parameters: 10012</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_PetTest@2cd76f31</td></tr>
+<tr>
+<td title='api.tests.PetTests.testCreateUser()'><b>testCreateUser</b><br>Test class: api.tests.PetTests</td>
+<td></td>
+<td>3</td>
+<td>api.tests.PetTests@3c9754d8</td></tr>
+<tr>
+<td title='api.tests.DD_UserTest.testDeleteUser()'><b>testDeleteUser</b><br>Test class: api.tests.DD_UserTest<br>Parameters: testuser2</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_UserTest@40005471</td></tr>
+<tr>
+<td title='api.tests.DD_UserTest.testPostUser()'><b>testPostUser</b><br>Test class: api.tests.DD_UserTest<br>Parameters: 1020, testuser2, Virat, Kohli, v@gmail.com, test@2, 1234567897</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_UserTest@40005471</td></tr>
+<tr>
+<td title='api.tests.UserTests2.testCreateUser()'><b>testCreateUser</b><br>Test class: api.tests.UserTests2</td>
+<td></td>
+<td>1</td>
+<td>api.tests.UserTests2@367ffa75</td></tr>
+<tr>
+<td title='api.tests.DD_PetTest.get_Pet()'><b>get_Pet</b><br>Test class: api.tests.DD_PetTest<br>Parameters: 10011</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_PetTest@2cd76f31</td></tr>
+<tr>
+<td title='api.tests.UserTests2.testReadUpdatedUser()'><b>testReadUpdatedUser</b><br>Test class: api.tests.UserTests2</td>
+<td></td>
+<td>1</td>
+<td>api.tests.UserTests2@367ffa75</td></tr>
+<tr>
+<td title='api.tests.UserTests.testReadUpdatedUser()'><b>testReadUpdatedUser</b><br>Test class: api.tests.UserTests</td>
+<td></td>
+<td>1</td>
+<td>api.tests.UserTests@3d285d7e</td></tr>
+<tr>
+<td title='api.tests.DD_UserTest.testReadUser()'><b>testReadUser</b><br>Test class: api.tests.DD_UserTest<br>Parameters: testuser3</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_UserTest@40005471</td></tr>
+<tr>
+<td title='api.tests.DD_PetTest.get_Pet()'><b>get_Pet</b><br>Test class: api.tests.DD_PetTest<br>Parameters: 10013</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_PetTest@2cd76f31</td></tr>
+<tr>
+<td title='api.tests.UserTests2.testDeleteUser()'><b>testDeleteUser</b><br>Test class: api.tests.UserTests2</td>
+<td></td>
+<td>1</td>
+<td>api.tests.UserTests2@367ffa75</td></tr>
+<tr>
+<td title='api.tests.DD_UserTest.testReadUser()'><b>testReadUser</b><br>Test class: api.tests.DD_UserTest<br>Parameters: testuser2</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_UserTest@40005471</td></tr>
+<tr>
+<td title='api.tests.UserTests.testDeleteUser()'><b>testDeleteUser</b><br>Test class: api.tests.UserTests</td>
+<td></td>
+<td>1</td>
+<td>api.tests.UserTests@3d285d7e</td></tr>
+<tr>
+<td title='api.tests.DD_PetTest.testPostUser()'><b>testPostUser</b><br>Test class: api.tests.DD_PetTest<br>Parameters: 10013, 20023, tester3_cat, tester3, https://test3, 30033, tag3, pending</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_PetTest@2cd76f31</td></tr>
+<tr>
+<td title='api.tests.UserTests2.testReadUser()'><b>testReadUser</b><br>Test class: api.tests.UserTests2</td>
+<td></td>
+<td>1</td>
+<td>api.tests.UserTests2@367ffa75</td></tr>
+<tr>
+<td title='api.tests.DD_PetTest.delete_Pet()'><b>delete_Pet</b><br>Test class: api.tests.DD_PetTest<br>Parameters: 10011</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_PetTest@2cd76f31</td></tr>
+<tr>
+<td title='api.tests.UserTests2.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.tests.UserTests2</td>
+<td></td>
+<td>1</td>
+<td>api.tests.UserTests2@367ffa75</td></tr>
+<tr>
+<td title='api.tests.DD_UserTest.testPostUser()'><b>testPostUser</b><br>Test class: api.tests.DD_UserTest<br>Parameters: 1030, testuser3, Shubhman, Gill, s@gmail.com, test@3, 1234567897</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_UserTest@40005471</td></tr>
+<tr>
+<td title='api.tests.UserTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.tests.UserTests</td>
+<td></td>
+<td>1</td>
+<td>api.tests.UserTests@3d285d7e</td></tr>
+<tr>
+<td title='api.tests.PetTests.testUpdatePet()'><b>testUpdatePet</b><br>Test class: api.tests.PetTests</td>
+<td></td>
+<td>1</td>
+<td>api.tests.PetTests@3c9754d8</td></tr>
+<tr>
+<td title='api.tests.PetTests.testDeletePet()'><b>testDeletePet</b><br>Test class: api.tests.PetTests</td>
+<td></td>
+<td>1</td>
+<td>api.tests.PetTests@3c9754d8</td></tr>
+<tr>
+<td title='api.tests.DD_UserTest.testReadUser()'><b>testReadUser</b><br>Test class: api.tests.DD_UserTest<br>Parameters: testuser1</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_UserTest@40005471</td></tr>
+<tr>
+<td title='api.tests.DD_UserTest.testDeleteUser()'><b>testDeleteUser</b><br>Test class: api.tests.DD_UserTest<br>Parameters: testuser3</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_UserTest@40005471</td></tr>
+<tr>
+<td title='api.tests.DD_PetTest.delete_Pet()'><b>delete_Pet</b><br>Test class: api.tests.DD_PetTest<br>Parameters: 10012</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_PetTest@2cd76f31</td></tr>
+<tr>
+<td title='api.tests.DD_UserTest.testDeleteUser()'><b>testDeleteUser</b><br>Test class: api.tests.DD_UserTest<br>Parameters: testuser1</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_UserTest@40005471</td></tr>
+<tr>
+<td title='api.tests.DD_UserTest.testPostUser()'><b>testPostUser</b><br>Test class: api.tests.DD_UserTest<br>Parameters: 1010, testuser1, Rohit, Sharma, r@gmail.com, test@1, 1234567897</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_UserTest@40005471</td></tr>
+<tr>
+<td title='api.tests.DD_PetTest.testPostUser()'><b>testPostUser</b><br>Test class: api.tests.DD_PetTest<br>Parameters: 10011, 20021, tester1_cat, tester1, https://test1, 30031, tag1, available</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_PetTest@2cd76f31</td></tr>
+<tr>
+<td title='api.tests.UserTests.testReadUser()'><b>testReadUser</b><br>Test class: api.tests.UserTests</td>
+<td></td>
+<td>1</td>
+<td>api.tests.UserTests@3d285d7e</td></tr>
+<tr>
+<td title='api.tests.DD_PetTest.testPostUser()'><b>testPostUser</b><br>Test class: api.tests.DD_PetTest<br>Parameters: 10012, 20022, tester2_cat, tester2, https://test2, 30032, tag2, sold</td>
+<td></td>
+<td>1</td>
+<td>api.tests.DD_PetTest@2cd76f31</td></tr>
 </table><p>
 </body>
 </html>

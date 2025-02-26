@@ -3,8 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="api.tests.PetTests"/>
       <class name="api.tests.UserTests"/>
       <class name="api.tests.DD_UserTest"/>
+      <class name="api.tests.DD_PetTest"/>
       <class name="api.tests.UserTests2"/>
     </classes>
   </test> <!-- Test -->

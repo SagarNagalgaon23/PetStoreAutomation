@@ -27,6 +27,9 @@ public class Routes {
 	 
 	 
 	 //Pet Module
-	 
+	 public static String post_pet_url=base_url+"/pet";
+	 public static String get_pet_url=base_url+"/pet/{id}";
+	 public static String put_pet_url=base_url+"/pet"; //we can update it through request body we can pass id in request body
+	 public static String delete_pet_url=base_url+"/pet/{id}";
 	
 }
